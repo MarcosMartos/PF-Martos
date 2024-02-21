@@ -1,0 +1,59 @@
+<!-- main.handlebars -->
+
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <style>body { font-family: Arial, sans-serif; margin: 0; padding: 0;
+      background-color: #f0f0f0; color: #333; } /* Estilos para el encabezado */
+      header { background-color: #007bff; color: #fff; padding: 10px;
+      text-align: center; } /* Estilos para el navbar */ nav { background-color:
+      #333; color: #fff; padding: 10px; text-align: center; } /* Estilos para
+      los enlaces del navbar */ nav a { color: #fff; text-decoration: none;
+      padding: 10px 20px; } /* Estilos para el contenido principal */ main {
+      margin-top: 10px; margin: 10px; } p { margin-top: 20px; color: #777; } a {
+      color: #007bff; } form { max-width: 300px; margin: 20px auto; padding:
+      20px; background-color: #fff; box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); }
+      label { display: block; margin-bottom: 8px; } input { width: 100%;
+      padding: 8px; margin-bottom: 12px; box-sizing: border-box; }
+      input[type="submit"] { background-color: #28a745; color: #fff; cursor:
+      pointer; } button { background-color: #007bff; color: #fff; padding: 10px;
+      margin-top: 10px; cursor: pointer; border: none; }
+      form.real-time-products-form { max-width: 300px; margin: 20px auto;
+      padding: 20px; background-color: #fff; box-shadow: 0 0 10px rgba(0, 0, 0,
+      0.1); } .product{ display: flex; justify-content: space-around;
+      align-items: center;}
+    </style>
+    <title>Movies Market</title>
+  </head>
+  <body>
+    <header>
+      <h1>Movies Market</h1>
+    </header>
+    <nav>
+      {{#if loggedIn}}
+        <a href="http://localhost:8080/">Inicio</a>
+
+        {{#if cartId}}
+          <a href="http://localhost:8080/carts/{{cartId}}">Carrito</a>
+        {{/if}}
+
+        {{#if isAdmin}}
+          <!-- Verifica si el usuario es administrador -->
+          <a href="http://localhost:8080/admin/user">Administrar Usuarios</a>
+          <!-- Mostrar solo para administradores -->
+        {{/if}}
+
+        <a href="http://localhost:8080/api/users/logout">Cerrar sesión</a>
+        <a href="http://localhost:8080/current">Perfil</a>
+      {{/if}}
+    </nav>
+
+    <main>
+      {{{body}}}
+    </main>
+    <footer>
+      &copy; 2024 Movies Market
+    </footer>
+  </body>
+</html>

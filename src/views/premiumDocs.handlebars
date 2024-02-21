@@ -1,0 +1,23 @@
+<h1>Cambiar a Premium User</h1>
+<h4>Debe tener que para subir de plan debe cargar todas las imagenes requeridas.
+  Una vez que todos los archivos sean subidos se cerrara la sesion
+  automaticamente y debera reingregar.</h4>
+
+<form
+  action="/api/users/premium/{{userId}}"
+  method="post"
+  enctype="multipart/form-data"
+>
+  <input type="hidden" name="fileType" value="premium" />
+  <label for="identificacion">Identificación:</label>
+
+  <input type="file" name="identificacion" id="identificacion" required />
+
+  <label for="domicilio">Comprobante de domicilio:</label>
+  <input type="file" name="domicilio" id="domicilio" required />
+
+  <label for="estadoDeCuenta">Comprobante de estado de cuenta:</label>
+  <input type="file" name="estadoDeCuenta" id="estadoDeCuenta" required />
+
+  <button type="submit">Subir Documentos</button>
+</form>

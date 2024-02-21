@@ -1,0 +1,61 @@
+{"error":"Cast to ObjectId failed for value \"123\" (type string) at path \"_id\" for model \"carts\"","level":"error","message":"Error al intentar eliminar un carrito","timestamp":"2024-01-18T22:45:46.417Z"}
+{"error":"Cast to ObjectId failed for value \"123\" (type string) at path \"_id\" for model \"carts\"","level":"error","message":"Error al intentar eliminar un carrito","timestamp":"2024-01-18T22:51:14.005Z"}
+{"error":"Cast to ObjectId failed for value \"123\" (type string) at path \"_id\" for model \"carts\"","level":"error","message":"Error al intentar eliminar un carrito","timestamp":"2024-01-18T22:54:20.208Z"}
+{"error":"Cast to ObjectId failed for value \"123\" (type string) at path \"_id\" for model \"carts\"","level":"error","message":"Error al intentar eliminar un carrito","timestamp":"2024-01-18T22:57:30.355Z"}
+{"level":"error","message":"Ha ocurrido un error al crear este producto","timestamp":"2024-01-18T23:06:24.977Z"}
+{"error":"Cast to ObjectId failed for value \"123\" (type string) at path \"_id\" for model \"carts\"","level":"error","message":"Error al intentar eliminar un carrito","timestamp":"2024-01-18T23:06:28.627Z"}
+{"level":"error","message":"Ha ocurrido un error al crear este producto","timestamp":"2024-01-18T23:13:33.299Z"}
+{"error":"Cast to ObjectId failed for value \"123\" (type string) at path \"_id\" for model \"carts\"","level":"error","message":"Error al intentar eliminar un carrito","timestamp":"2024-01-18T23:13:38.224Z"}
+{"level":"error","message":"Ha ocurrido un error al crear este producto","timestamp":"2024-01-18T23:18:15.121Z"}
+{"error":"Cast to ObjectId failed for value \"123\" (type string) at path \"_id\" for model \"carts\"","level":"error","message":"Error al intentar eliminar un carrito","timestamp":"2024-01-18T23:18:18.913Z"}
+{"level":"error","message":"Ha ocurrido un error al crear este producto","timestamp":"2024-01-18T23:23:21.003Z"}
+{"error":"Cast to ObjectId failed for value \"123\" (type string) at path \"_id\" for model \"carts\"","level":"error","message":"Error al intentar eliminar un carrito","timestamp":"2024-01-18T23:23:24.447Z"}
+{"error":"Cast to ObjectId failed for value \"123\" (type string) at path \"_id\" for model \"carts\"","level":"error","message":"Error al intentar eliminar un carrito","timestamp":"2024-01-18T23:32:05.449Z"}
+{"error":"Cast to ObjectId failed for value \"123\" (type string) at path \"_id\" for model \"carts\"","level":"error","message":"Error al intentar eliminar un carrito","timestamp":"2024-01-18T23:37:58.323Z"}
+{"level":"error","message":"Ha ocurrido un error al crear este producto","timestamp":"2024-01-19T01:29:57.505Z"}
+{"level":"error","message":"Ha ocurrido un error al crear este producto","timestamp":"2024-01-19T01:36:21.214Z"}
+{"level":"error","message":"Ha ocurrido un error al crear este producto","timestamp":"2024-01-19T01:45:28.557Z"}
+{"level":"error","message":"Ha ocurrido un error al crear este producto","timestamp":"2024-01-19T02:01:34.618Z"}
+{"level":"error","message":"Ha ocurrido un error al crear este producto","timestamp":"2024-01-19T02:46:30.831Z"}
+{"error":"Cast to ObjectId failed for value \"123\" (type string) at path \"_id\" for model \"carts\"","level":"error","message":"Error al intentar eliminar un carrito","timestamp":"2024-01-20T00:42:13.328Z"}
+{"level":"error","message":"Cart not found","timestamp":"2024-01-20T01:23:53.640Z"}
+{"level":"error","message":"Product not found in the cart","timestamp":"2024-01-20T02:11:01.730Z"}
+{"level":"error","message":"Product not found in the cart","timestamp":"2024-01-20T02:18:25.941Z"}
+{"level":"error","message":"Product not found in the cart","timestamp":"2024-01-20T02:20:50.482Z"}
+{"error":"productModel.paginate is not a function","level":"error","message":"Error al intentar acceder a todos los productos","timestamp":"2024-01-20T18:32:22.544Z"}
+{"level":"error","message":"Este es un mensaje de error","timestamp":"2024-01-23T00:07:56.413Z"}
+{"level":"fatal","message":"Este es un mensaje fatal","timestamp":"2024-01-23T00:07:56.460Z"}
+{"level":"error","message":"Este es un mensaje de error","timestamp":"2024-01-23T00:29:56.548Z"}
+{"level":"fatal","message":"Este es un mensaje fatal","timestamp":"2024-01-23T00:29:56.583Z"}
+{"level":"error","message":"Ha ocurrido un error al crear este producto","timestamp":"2024-01-26T21:15:27.906Z"}
+{"level":"error","message":"Ha ocurrido un error al crear este producto","timestamp":"2024-01-26T22:05:45.111Z"}
+{"level":"error","message":"Ha ocurrido un error al crear este producto","timestamp":"2024-01-26T22:10:55.716Z"}
+{"level":"error","message":"Ha ocurrido un error al crear este producto","timestamp":"2024-01-26T22:44:11.511Z"}
+{"level":"error","message":"Ha ocurrido un error al crear este producto","timestamp":"2024-01-26T22:45:32.485Z"}
+{"level":"error","message":"Ha ocurrido un error al crear este producto","timestamp":"2024-01-26T22:46:49.879Z"}
+{"level":"error","message":"Ha ocurrido un error al crear este producto","timestamp":"2024-01-26T22:49:16.711Z"}
+{"level":"error","message":"Ha ocurrido un error al crear este producto","timestamp":"2024-01-26T22:53:37.351Z"}
+{"level":"error","message":"Ha ocurrido un error al crear este producto","timestamp":"2024-01-26T22:57:14.844Z"}
+{"level":"error","message":"Ha ocurrido un error al crear este producto","timestamp":"2024-01-26T22:59:13.549Z"}
+{"level":"error","message":"Ha ocurrido un error al crear este producto","timestamp":"2024-01-26T23:01:00.064Z"}
+{"level":"error","message":"Ha ocurrido un error al crear este producto","timestamp":"2024-01-26T23:02:55.652Z"}
+{"level":"error","message":"Ha ocurrido un error al crear este producto","timestamp":"2024-01-26T23:04:44.905Z"}
+{"level":"error","message":"Ha ocurrido un error al crear este producto","timestamp":"2024-01-26T23:15:36.523Z"}
+{"level":"error","message":"Ha ocurrido un error al crear este producto","timestamp":"2024-01-26T23:24:43.060Z"}
+{"level":"error","message":"Ha ocurrido un error al crear este producto","timestamp":"2024-01-26T23:26:45.471Z"}
+{"level":"error","message":"Ha ocurrido un error al crear este producto","timestamp":"2024-01-26T23:32:05.935Z"}
+{"level":"error","message":"Ha ocurrido un error al crear este producto","timestamp":"2024-01-26T23:33:59.458Z"}
+{"level":"error","message":"Ha ocurrido un error al crear este producto","timestamp":"2024-01-26T23:43:53.776Z"}
+{"level":"error","message":"Ha ocurrido un error al crear este producto","timestamp":"2024-01-26T23:51:06.728Z"}
+{"level":"error","message":"Ha ocurrido un error al crear este producto","timestamp":"2024-01-26T23:52:33.384Z"}
+{"level":"error","message":"Ha ocurrido un error al crear este producto","timestamp":"2024-01-26T23:57:05.023Z"}
+{"level":"error","message":"Ha ocurrido un error al crear este producto","timestamp":"2024-01-27T00:01:22.653Z"}
+{"level":"error","message":"Ha ocurrido un error al crear este producto","timestamp":"2024-01-27T00:06:46.140Z"}
+{"level":"error","message":"Error during signUp: usersModel.create(...).populate is not a function","stack":"TypeError: usersModel.create(...).populate is not a function\n    at UsersManager.createOne (file:///C:/Users/Matias/Desktop/DesafioEntregable-Websockets/src/Dao/MongoDB/users.js:33:51)\n    at signUp (file:///C:/Users/Matias/Desktop/DesafioEntregable-Websockets/src/controllers/users.controller.js:110:44)","timestamp":"2024-02-05T22:52:56.138Z"}
+{"level":"error","message":"Error during signUp: usersModel.create(...).populate is not a function","stack":"TypeError: usersModel.create(...).populate is not a function\n    at UsersManager.createOne (file:///C:/Users/Matias/Desktop/DesafioEntregable-Websockets/src/Dao/MongoDB/users.js:33:51)\n    at signUp (file:///C:/Users/Matias/Desktop/DesafioEntregable-Websockets/src/controllers/users.controller.js:110:44)","timestamp":"2024-02-05T22:56:44.839Z"}
+{"level":"error","message":"Insufficient stock for product with ID 6528a214679529d9639de6e2","timestamp":"2024-02-13T00:19:12.101Z"}
+{"level":"error","message":"Insufficient stock for product with ID 6528a214679529d9639de6e2","timestamp":"2024-02-13T16:59:09.238Z"}
+{"level":"error","message":"Insufficient stock for product with ID 6528a214679529d9639de6e2","timestamp":"2024-02-13T17:48:28.691Z"}
+{"level":"error","message":"Este es un mensaje de error","timestamp":"2024-02-14T17:21:22.099Z"}
+{"level":"fatal","message":"Este es un mensaje fatal","timestamp":"2024-02-14T17:21:22.390Z"}
+{"level":"error","message":"Ha ocurrido un error al intentar eliminar este producto: Cannot read properties of null (reading 'role')","stack":"TypeError: Cannot read properties of null (reading 'role')\n    at deleteProduct (file:///C:/Users/Matias/Desktop/DesafioEntregable-Websockets/src/controllers/product.controller.js:82:19)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)","timestamp":"2024-02-16T00:30:44.458Z"}
