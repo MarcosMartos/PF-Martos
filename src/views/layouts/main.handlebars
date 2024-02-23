@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <style>body { font-family: Arial, sans-serif; margin: 0; padding: 0;
       background-color: #f0f0f0; color: #333; } /* Estilos para el encabezado */
-      header { background-color: #007bff; color: #fff; padding: 10px;
+      header { background-color: #6c0000; color: #fff; padding: 10px;
       text-align: center; } /* Estilos para el navbar */ nav { background-color:
       #333; color: #fff; padding: 10px; text-align: center; } /* Estilos para
       los enlaces del navbar */ nav a { color: #fff; text-decoration: none;
@@ -24,28 +24,35 @@
       0.1); } .product{ display: flex; justify-content: space-around;
       align-items: center;}
     </style>
-    <title>Movies Market</title>
+    <title>Nerdflix</title>
   </head>
   <body>
     <header>
-      <h1>Movies Market</h1>
+      <h1>N</h1>
+      <h1>Nerdflix</h1>
     </header>
     <nav>
       {{#if loggedIn}}
-        <a href="http://localhost:8080/">Inicio</a>
+        <a href="https://pf-martos-dev-tszg.1.us-1.fl0.io/">Inicio</a>
 
         {{#if cartId}}
-          <a href="http://localhost:8080/carts/{{cartId}}">Carrito</a>
+          <a
+            href="https://pf-martos-dev-tszg.1.us-1.fl0.io/carts/{{cartId}}"
+          >Carrito</a>
         {{/if}}
 
         {{#if isAdmin}}
           <!-- Verifica si el usuario es administrador -->
-          <a href="http://localhost:8080/admin/user">Administrar Usuarios</a>
+          <a
+            href="https://pf-martos-dev-tszg.1.us-1.fl0.io/admin/user"
+          >Administrar Usuarios</a>
           <!-- Mostrar solo para administradores -->
         {{/if}}
 
-        <a href="http://localhost:8080/api/users/logout">Cerrar sesión</a>
-        <a href="http://localhost:8080/current">Perfil</a>
+        <a
+          href="https://pf-martos-dev-tszg.1.us-1.fl0.io/api/users/logout"
+        >Cerrar sesión</a>
+        <a href="https://pf-martos-dev-tszg.1.us-1.fl0.io/current">Perfil</a>
       {{/if}}
     </nav>
 
@@ -53,7 +60,7 @@
       {{{body}}}
     </main>
     <footer>
-      &copy; 2024 Movies Market
+      &copy; 2024 Nerdflix
     </footer>
   </body>
 </html>
