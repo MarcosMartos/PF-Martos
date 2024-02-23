@@ -33,26 +33,20 @@
     </header>
     <nav>
       {{#if loggedIn}}
-        <a href="https://pf-martos-dev-tszg.1.us-1.fl0.io/">Inicio</a>
+        <a href="http://localhost:8080/">Inicio</a>
 
         {{#if cartId}}
-          <a
-            href="https://pf-martos-dev-tszg.1.us-1.fl0.io/carts/{{cartId}}"
-          >Carrito</a>
+          <a href="http://localhost:8080/carts/{{cartId}}">Carrito</a>
         {{/if}}
 
         {{#if isAdmin}}
           <!-- Verifica si el usuario es administrador -->
-          <a
-            href="https://pf-martos-dev-tszg.1.us-1.fl0.io/admin/user"
-          >Administrar Usuarios</a>
+          <a href="http://localhost:8080/admin/user">Administrar Usuarios</a>
           <!-- Mostrar solo para administradores -->
         {{/if}}
 
-        <a
-          href="https://pf-martos-dev-tszg.1.us-1.fl0.io/api/users/logout"
-        >Cerrar sesión</a>
-        <a href="https://pf-martos-dev-tszg.1.us-1.fl0.io/current">Perfil</a>
+        <a href="http://localhost:8080/api/users/logout">Cerrar sesión</a>
+        <a href="http://localhost:8080/current">Perfil</a>
       {{/if}}
     </nav>
 
